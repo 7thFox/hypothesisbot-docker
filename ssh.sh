@@ -1,0 +1,1 @@
+docker run -v $(pwd)/config:/data -it --entrypoint /bin/bash hypothesisbot
