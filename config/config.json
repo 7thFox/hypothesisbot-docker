@@ -2,22 +2,18 @@
     "global": {
         "token": "/data/token",
         "prefix": "!",
-        "logservers": [],
+        "logservers": [
+		"138977883036188672",
+		"135433344140705793"
+	],
         "db": {
             "type": "mongo",
-            "host": "localhost",
+            "host": "mongo-bot",
             "dbname": "hypothesis_bot"
-        }
-    }, 
-    "debug": {
-        "token": "/data/token.debug",
-        "prefix": "!!",
-        "logservers": [],
-        "db": {
-            "type": "mongo",
-            "host": "localhost",
-            "dbname": "hypothesis_bot_debug",
-            "copyprod": false
-        }
+        },
+	"log": {
+		"console": true,
+		"db": ""
+	}
     }
 }
