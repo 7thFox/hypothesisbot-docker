@@ -1,1 +1,0 @@
-docker run -v $(pwd)/config:/data hypothesisbot -debug
